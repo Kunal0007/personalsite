@@ -1,0 +1,201 @@
+body {
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Montserrat Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #5e5d5d;
+}
+
+#title {
+  background-image: url("https://www.mealeasy.com/html-pages/Landing-Pages/Meal-Kits/images/green-bg-bgb.png");
+  background-repeat: no-repeat;
+  height: fit-content;
+  color: black;
+}
+
+/****** fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*******/
+.container-fluid {
+  padding: 8% 12% 18% 12%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  font-family: "Ubuntu";
+}
+
+.nav-link {
+  font-size: 22px;
+  margin-left: 30px;
+}
+
+/* Download-Button */
+.Download-Button {
+  margin: 20px 7px 20px 0;
+  font-size: 1.5rem;
+}
+
+/* Title-image */
+.title-image {
+  width: 95%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  vertical-align: middle;
+}
+
+/* Site-features */
+#features {
+  padding: 5% 10%;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.site-features {
+  text-align: center;
+  padding: 6%;
+}
+
+.icon {
+  color: #48c953;
+  padding: 10px;
+}
+
+.icon:hover {
+  color: #15a857;
+}
+
+/* Introduction-section */
+
+.container-fluid2 {
+  padding: 12%;
+}
+
+#introduction {
+  background-image: url("https://media.istockphoto.com/vectors/simple-abstract-green-and-yellow-color-background-vector-id1206564525?k=6&m=1206564525&s=612x612&w=0&h=xOe8MjepbnsoJ3PAZO1CFKbSYcG3h8coUS6nMgoC07g=");
+  background-size: cover;
+}
+
+.intro-image {
+  width: 95%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  right: 4%;
+}
+
+/* Goals section */
+#Goals {
+  text-align: center;
+  color: black;
+}
+
+.Goals-text {
+  font-size: 2.2rem;
+  color: #5e5d5d;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+@media (max-width: 1140px) {
+  .container-fluid {
+    text-align: center;
+    height: fit-content;
+  }
+
+  /* .container-fluid2 {
+    text-align: center;
+  } */
+
+  .title-image {
+    position: relative;
+  }
+
+  .intro-image {
+    position: static;
+    padding: 5% 0;
+    margin: auto;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .Goals-text {
+    text-align: justify;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  .Goals-text {
+    font-size: 1.6rem;
+  }
+}
+
+/* Footer */
+#cta {
+  color: black;
+  text-align: center;
+  background-image: url("https://cdn.wallpapersafari.com/65/6/3WhmyD.jpg");
+  background-size: cover;
+  padding: 5% 20% 10%;
+}
+
+.conclusion {
+  font-size: 3.2rem;
+  font-family: "Montserrat Black", sans-serif;
+  margin-bottom: 40px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 6%;
+}
+
+.socialmediaicon {
+  margin: 20px 8px;
+}
